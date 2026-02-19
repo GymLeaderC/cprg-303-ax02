@@ -1,50 +1,37 @@
-# Welcome to your Expo app 👋
+# Advanced Multi-Screen Mobile Application with Collaborative Navigation (Expo)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+### A React Native mobile application built with Expo, recreating a real-world app interface with multi-screen tab and stack navigation.
 
-## Get started
+## Assignment Overview
 
-1. Install dependencies
+This assignment requires students to design and implement a professional multi screen mobile application using Expo. Working in groups of three, students will recreate the layout and navigation structure of a real world mobile application, demonstrating technical proficiency, collaborative development, and professional coding practices.
 
-   ```bash
-   npm install
-   ```
+## Project Instructions
 
-2. Start the app
+- Select a real mobile application interface (e.g., Instagram, X, banking or shopping app).
+- Capture screenshots of at least three related screens.
+- The reference must demonstrate moderate to high interface complexity. Simple designs will not be accepted.
 
-   ```bash
-   npx expo start
-   ```
+## Project Setup
 
-In the output, you'll find options to open the app in a
+- Create a new Expo project using the TypeScript template: `npx create-expo-app@latest`
+- Assign a meaningful project name and organize your files clearly.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Screen & Navigation Requirements
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- Implement a minimum of FOUR (4) functional screens.
+- Use Tab Navigation combined with at least one Stack Navigation flow.
+- Each screen must include structured layout, icons, and consistent styling.
+- At least one screen must include dynamic content such as lists, navigation parameters, or reusable components.
 
-## Get a fresh project
+## Team Collaboration (Groups of Three)
 
-When you're ready, run:
+- Each group must contain exactly three students.
+- All members must contribute code to the GitHub repository.
+- Commit history will be reviewed to ensure equitable participation.
 
-```bash
-npm run reset-project
-```
+## Bonus (Optional – Up to 2 Extra Marks)
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- Implement light/dark theme support
+- Add simple animations or transitions
+- Add a mock authentication or profile screen
