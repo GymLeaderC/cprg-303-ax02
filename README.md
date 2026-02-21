@@ -1,6 +1,6 @@
 # Advanced Multi-Screen Mobile Application with Collaborative Navigation (Expo)
 
-### A React Native mobile application built with Expo, recreating a real-world app interface with multi-screen tab and stack navigation.
+### A React Native mobile application built with Expo, recreating the Spotify Mobile application interface with multi-screen tab and stack navigation.
 
 ## Assignment Overview
 
