@@ -2,13 +2,13 @@
  *  @author Group 9 - Aaron Reid, Joshua Couto, Kaley Wood
  *  Southern Alberta Institute of Technology: CPRG-303-C
  *  Assignment 2: Advanced Multi-Screen Mobile App w/ Collaborative Navigation
- *  Created: 02.19.2026
+ *  Created: 02.21.2026
  */
 
 import { Pressable, StyleSheet, Text, Image } from 'react-native';
 
 /* Props for the reusable card component used in both 
-   Start Browsing and Browse All sections */
+   'Start Browsing' and 'Browse All' sections */
 
 interface CategoryCardProps {
   title: string;
@@ -18,7 +18,7 @@ interface CategoryCardProps {
 }
 
 /* Renders a single category card. Size prop controls whether it
-   displays as a compact Start Browsing card or a taller Browse All card. */
+ * displays as a compact Start Browsing card or a taller Browse All card. */
 
 function CategoryCard({ title, backgroundColor, image, size }: CategoryCardProps) {
   return (
