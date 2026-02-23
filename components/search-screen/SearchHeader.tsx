@@ -17,7 +17,7 @@ function SearchHeader() {
       <Text style={styles.title}>Search</Text>
       <Image
         source={require('../../assets/images/camera-icon.png')} // TO-DO: Download Assets
-        style={styles.searchIcon}
+        style={styles.cameraIcon}
       />
     </View>
   );
@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     flex: 1,
   },
-  searchIcon: {
+  cameraIcon: {
     width: 24,
     height: 24,
     marginLeft: 12,
