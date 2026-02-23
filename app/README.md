@@ -34,4 +34,3 @@ All component files (i.e. `CategoryCard.tsx`, `DiscoverCard.tsx`) use TitleCase.
 All layout files (i.e. `_layout.tsx`) start with an underscore. These files start with an underscore to signify they are partial layouts that wrap child routes rather than being independent, URL-addressable pages.
 ## Data
 All data files (i.e. `searchData.ts`) use camelCase. These files also do not use any JavaScript; they only use TypeScript. As such, the file extension is only `.ts` for these files.
-- `searchData.ts`
