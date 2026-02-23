@@ -6,6 +6,7 @@
  */
 
 import { Image, StyleSheet, Text, View } from 'react-native';
+import { Ionicons } from '@expo/vector-icons';
 
 function SearchHeader() {
   return (
@@ -15,10 +16,7 @@ function SearchHeader() {
         style={styles.profilePic}
       />
       <Text style={styles.title}>Search</Text>
-      <Image
-        source={require('../../assets/images/camera-icon.png')} // TO-DO: Download Assets
-        style={styles.cameraIcon}
-      />
+      <Ionicons name="camera-outline" size={24} color="#FFFFFF" />
     </View>
   );
 }

@@ -6,6 +6,7 @@
  */
 
 import { Pressable, StyleSheet, Text, Image } from 'react-native';
+import { Ionicons } from '@expo/vector-icons';
 
 interface SearchBarProps {
   onPress: () => void;
@@ -16,10 +17,7 @@ function SearchBar({ onPress }: SearchBarProps) {
     <Pressable onPress={onPress}
       style={styles.searchBar}
     >
-      <Image
-        source={require('../../assets/images/search-icon.png')}
-        style={styles.searchIcon}
-      />
+      <Ionicons name="search" size={20} color="#121212" />
       <Text style={styles.searchText}>
         What do you want to listen to?
       </Text>
