@@ -35,9 +35,3 @@ All layout files (i.e. `_layout.tsx`) start with an underscore. These files star
 ## Data
 All data files (i.e. `searchData.ts`) use camelCase. These files also do not use any JavaScript; they only use TypeScript. As such, the file extension is only `.ts` for these files.
 - `searchData.ts`
-## /tabs
-- `_layout.tsx`
-- `create.tsx`
-- `index.tsx`
-- `library.tsx`
-- `searchh.tsx`
