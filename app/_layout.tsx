@@ -5,8 +5,4 @@
  *  Created: 02.23.2026
  */
 
-import { Stack } from "expo-router";
 
-export default function RootLayout() {
-  return <Stack />;
-}
