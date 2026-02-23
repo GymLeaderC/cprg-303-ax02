@@ -19,7 +19,7 @@ export interface DiscoverCardData {
   image: any;
 }
 
-// TO-DO: Download Assets and Change All Image References
+// TO-DO: Download Assets
 export const startBrowsingData: CategoryCardData[] = [
   { id: "1", title: "Music", backgroundColor: "#DC148C", size: "small", image: require("../assets/hiphop.png") },
   { id: "2", title: "Podcasts", backgroundColor: "#006450", size: "small", image: require("../assets/hiphop.png") },
@@ -27,7 +27,7 @@ export const startBrowsingData: CategoryCardData[] = [
   { id: "4", title: "Live Events", backgroundColor: "#8C3B7D", size: "small", image: require("../assets/hiphop.png") }
 ]
 
-// TO-DO: Download Assets and Change All Image References
+// TO-DO: Download Assets
 export const browseAllData: CategoryCardData[] = [
   { id: "5", title: "Made For You", backgroundColor: "#8D67AB", size: "large", image: require("../assets/pop.png") },
   { id: "6", title: "Upcoming Releases", backgroundColor: "#056952", size: "large", image: require("../assets/hiphop.png") },
@@ -41,7 +41,7 @@ export const browseAllData: CategoryCardData[] = [
   { id: "14", title: "Podcast Charts", backgroundColor: "#1B3254", size: "large", image: require("../assets/pop.png") }
 ]
 
-// TO-DO: Download Assets and Change All Image References
+// TO-DO: Download Assets
 export const discoverData: DiscoverCardData[] = [
   { id: "1", title: "Music for you", image: require("../assets/pop.png") },
   { id: "2", title: "#chill dinner", image: require("../assets/pop.png") },
