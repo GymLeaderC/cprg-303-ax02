@@ -12,7 +12,7 @@ function SearchHeader() {
   return (
     <View style={styles.header}>
       <Image
-        source={require('../../assets/images/jaronadel.png')} // TO-DO: Download Assets
+        source={{ uri: "https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/main/assets/images/jaronadel.png" }}
         style={styles.profilePic}
       />
       <Text style={styles.title}>Search</Text>
@@ -44,7 +44,7 @@ const styles = StyleSheet.create({
     width: 24,
     height: 24,
     marginLeft: 12,
-  } 
+  }
 });
 
 export default SearchHeader;
