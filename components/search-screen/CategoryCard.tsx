@@ -30,7 +30,7 @@ function CategoryCard({ title, backgroundColor, image, size }: CategoryCardProps
       ]}
     >
       <Text style={styles.title}>{title}</Text>
-      <Image source={image} style={styles.cardImage} />
+      <Image source={image} style={[styles.cardImage, size === "large" && styles.largeCardImage]} />
     </Pressable>
   );
 }
@@ -59,13 +59,13 @@ const styles = StyleSheet.create({
   },
   // 'Start Browsing' section card styling
   smallCard: {
-    width: "48%",
-    height: 55,
+    width: "47%",
+    height: 70,
   },
   // 'Browse All' section cards
   largeCard: {
-    width: "48%",
-    height: 115,
+    width: "47%",
+    height: 100,
   },
   // Keeps text above the image when they overlap
   title: {
@@ -83,6 +83,11 @@ const styles = StyleSheet.create({
     height: 60,
     borderRadius: 4,
     transform: [{ rotate: "20deg" }],
+  },
+  // 25% larger image for 'Browse All' large cards
+  largeCardImage: {
+    width: 75,
+    height: 75,
   }
 })
 

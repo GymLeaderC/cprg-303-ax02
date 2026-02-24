@@ -16,7 +16,7 @@ function SearchHeader() {
         style={styles.profilePic}
       />
       <Text style={styles.title}>Search</Text>
-      <Ionicons name="camera-outline" size={24} color="#FFFFFF" />
+      <Ionicons name="camera-outline" size={30} color="#FFFFFF" />
     </View>
   );
 }
@@ -26,6 +26,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     padding: 16,
+    marginBottom: 2,
     backgroundColor: '#121212',
   },
   profilePic: {

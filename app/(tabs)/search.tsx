@@ -12,12 +12,15 @@ import DiscoverCard from "../../components/search-screen/DiscoverCard"
 import { startBrowsingData, browseAllData, discoverData } from "../../data/searchData"
 
 import { Text, StyleSheet, ScrollView, View, SafeAreaView } from 'react-native';
+import { useBottomTabBarHeight } from '@react-navigation/bottom-tabs';
 
 export default function Search() {
+  const tabBarHeight = useBottomTabBarHeight();
   return (
     <SafeAreaView style={styles.safeArea}>
       <ScrollView
         style={styles.container}
+        contentContainerStyle={{ paddingBottom: tabBarHeight + 16 }}
       >
         <SearchHeader />
         <SearchBar onPress={() => console.log("Navigate to search results")} />
@@ -43,6 +46,7 @@ export default function Search() {
         <ScrollView
           horizontal
           showsHorizontalScrollIndicator={false}
+          contentContainerStyle={{ paddingHorizontal: 16 }}
         >
           {discoverData.map((card) => (
             <DiscoverCard
@@ -87,13 +91,13 @@ const styles = StyleSheet.create({
     fontSize: 20,
     fontWeight: 'bold',
     paddingHorizontal: 16,
-    marginTop: 24,
+    marginTop: 12,
     marginBottom: 12,
   },
   flexView: {
     flexDirection: 'row',
     flexWrap: 'wrap',
-    gap: 12,
+    gap: 18,
     paddingHorizontal: 16,
   },
 });

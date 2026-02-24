@@ -19,7 +19,6 @@ export interface DiscoverCardData {
   image: { uri: string };
 }
 
-// TO-DO: Download Assets
 export const startBrowsingData: CategoryCardData[] = [
   {
     id: "1", title: "Music", backgroundColor: "#DC148C", size: "small",
@@ -39,7 +38,6 @@ export const startBrowsingData: CategoryCardData[] = [
   }
 ]
 
-// TO-DO: Download Assets
 export const browseAllData: CategoryCardData[] = [
   {
     id: "1", title: "Made For You", backgroundColor: "#8D67AB", size: "large",
@@ -58,7 +56,7 @@ export const browseAllData: CategoryCardData[] = [
     image: { uri: "https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/main/assets/images/search-images/browse-hiphop.jpg" }
   },
   {
-    id: "5", title: "Pop", backgroundColor: "#8EACCD", size: "large",
+    id: "5", title: "Pop", backgroundColor: "#cbd14f", size: "large",
     image: { uri: "https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/main/assets/images/search-images/browse-pop.jpg" }
   },
   {
@@ -70,7 +68,7 @@ export const browseAllData: CategoryCardData[] = [
     image: { uri: "https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/main/assets/images/search-images/browse-rock.jpg" }
   },
   {
-    id: "8", title: "Glow", backgroundColor: "#7D5335", size: "large",
+    id: "8", title: "Glow", backgroundColor: "#1B3254", size: "large",
     image: { uri: "https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/main/assets/images/search-images/browse-glow.jpg" }
   },
   {
@@ -78,20 +76,19 @@ export const browseAllData: CategoryCardData[] = [
     image: { uri: "https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/main/assets/images/search-images/browse-charts.jpg" }
   },
   {
-    id: "10", title: "Podcast Charts", backgroundColor: "#1B3254", size: "large",
+    id: "10", title: "Podcast Charts", backgroundColor: "#7D5335", size: "large",
     image: { uri: "https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/main/assets/images/search-images/browse-podcast.jpg" }
   }
 ]
 
-// TO-DO: Download Assets
 export const discoverData: DiscoverCardData[] = [
   {
     id: "1", title: "Music for you",
     image: { uri: "https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/main/assets/images/search-images/discover-mfy.jpg" }
   },
   {
-    id: "2", title: "#chill dinner",
-    image: { uri: "https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/main/assets/images/search-images/discover-dinner.jpg" }
+    id: "2", title: "#rap god",
+    image: { uri: "https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/main/assets/images/search-images/discover-rap.jpg" }
   },
   {
     id: "3", title: "#granola vibes",
@@ -102,7 +99,7 @@ export const discoverData: DiscoverCardData[] = [
     image: { uri: "https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/main/assets/images/search-images/discover-retro.jpg" }
   },
   {
-    id: "5", title: "#surf crush",
+    id: "5", title: "#aloha daze",
     image: { uri: "https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/main/assets/images/search-images/discover-surf.jpg" }
   },
   {
@@ -118,7 +115,7 @@ export const discoverData: DiscoverCardData[] = [
     image: { uri: "https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/main/assets/images/search-images/discover-jazz.jpg" }
   },
   {
-    id: "9", title: "clean rap",
-    image: { uri: "https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/main/assets/images/search-images/discover-rap.jpg" }
+    id: "9", title: "#chill dinner",
+    image: { uri: "https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/main/assets/images/search-images/discover-dinner.jpg" }
   }
 ]

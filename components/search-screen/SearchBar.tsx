@@ -17,7 +17,7 @@ function SearchBar({ onPress }: SearchBarProps) {
     <Pressable onPress={onPress}
       style={styles.searchBar}
     >
-      <Ionicons name="search" size={20} color="#121212" />
+      <Ionicons name="search" size={24} color="#4f4f4f" />
       <Text style={styles.searchText}>
         What do you want to listen to?
       </Text>
@@ -33,18 +33,18 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     padding: 12,
     marginHorizontal: 16,
-    marginTop: 12,
   },
   searchIcon: {
     width: 20,
     height: 20,
     marginRight: 10,
-    tintColor: '#121212',
+    tintColor: '#757575',
   },
   searchText: {
     color: '#757575',
     fontSize: 16,
     fontWeight: '500',
+    margin: 4,
   },
 });
 
