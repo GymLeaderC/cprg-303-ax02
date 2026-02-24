@@ -6,6 +6,9 @@
  */
 
 import RecentSearchHeader from '@/components/search-recents/RecentSearchHeader';
+import RecentCard from '@/components/search-recents/RecentCard';
+import ClearRecent from '@/components/search-recents/ClearRecent';
+import { RecentSearchData } from '@/data/recentSearchData';
 
 import { SafeAreaView, Pressable, ScrollView, Text, StyleSheet } from 'react-native';
 import { router } from "expo-router";
@@ -14,7 +17,10 @@ export default function SearchRecents() {
   return (
     <SafeAreaView>
       <RecentSearchHeader onPress={() => router.back()}/>
-      
+      <Text style={styles.title}>Recent searches</Text>
+      <RecentCard
+        key={}
+      />
     </SafeAreaView>
   )
   // <Text style={styles.title}>Recent searches</Text>
