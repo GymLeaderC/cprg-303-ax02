@@ -15,7 +15,7 @@ import { Text, StyleSheet, ScrollView, View, SafeAreaView } from 'react-native';
 
 export default function Search() {
   return (
-    <SafeAreaView>
+    <SafeAreaView style={styles.safeArea}>
       <ScrollView
         style={styles.container}
       >
@@ -74,6 +74,10 @@ export default function Search() {
 }
 
 const styles = StyleSheet.create({
+  safeArea: {
+    flex: 1,
+    backgroundColor: '#121212',
+  },
   container: {
     flex: 1,
     backgroundColor: '#121212',
