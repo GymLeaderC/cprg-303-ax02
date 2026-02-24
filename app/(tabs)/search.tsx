@@ -5,14 +5,15 @@
  *  Created: 02.21.2026
  */
 
-import SearchHeader from "../../components/search-screen/SearchHeader"
-import SearchBar from "../../components/search-screen/SearchBar"
-import CategoryCard from "../../components/search-screen/CategoryCard"
-import DiscoverCard from "../../components/search-screen/DiscoverCard"
+import SearchHeader from "../../components/search/SearchHeader"
+import SearchBar from "../../components/search/SearchBar"
+import CategoryCard from "../../components/search/CategoryCard"
+import DiscoverCard from "../../components/search/DiscoverCard"
 import { startBrowsingData, browseAllData, discoverData } from "../../data/searchData"
 
 import { Text, StyleSheet, ScrollView, View, SafeAreaView } from 'react-native';
 import { useBottomTabBarHeight } from '@react-navigation/bottom-tabs';
+import { router } from "expo-router";
 
 export default function Search() {
   const tabBarHeight = useBottomTabBarHeight();
@@ -23,7 +24,7 @@ export default function Search() {
         contentContainerStyle={{ paddingBottom: tabBarHeight + 16 }}
       >
         <SearchHeader />
-        <SearchBar onPress={() => console.log("Navigate to search results")} />
+        <SearchBar onPress={() => router.push('/search-recents')} />
 
         <Text style={styles.title}>
           Start browsing
