@@ -5,19 +5,19 @@
  *  Created: 02.24.2026
  */
 
-import { SafeAreaView, ScrollView, Text, StyleSheet } from 'react-native';
+import RecentSearchHeader from '@/components/search-recents/RecentSearchHeader';
+
+import { SafeAreaView, Pressable, ScrollView, Text, StyleSheet } from 'react-native';
+import { router } from "expo-router";
 
 export default function SearchRecents() {
   return (
     <SafeAreaView>
-      <Text style={styles.text}>
-        Search recents
-      </Text>
+      <RecentSearchHeader onPress={() => router.back()}/>
+      
     </SafeAreaView>
   )
-  // SafeAreaView Wrapper will go here
-  // The RecentHeader Component will go here
-  // The Text, "Recent searches" will go here
+  // <Text style={styles.title}>Recent searches</Text>
   // The RecentCard Components array is scrollable, a ScrollView Wrapper will go here
   // Each RecentCard Component will be mapped here
   // The ClearRecent Component will go here
