@@ -8,18 +8,5 @@
 import { Stack } from "expo-router";
 
 export default function appLayout() {
-  return (
-    <Stack>
-      <Stack.Screen
-        name="(tabs)" options={{
-          headerShown: false,
-        }}
-      />
-      <Stack.Screen
-        name="search-recents" options={{
-          headerShown: false,
-        }}
-      />
-    </Stack>
-  )
+  return <Stack screenOptions={{ headerShown: false }} />;
 }

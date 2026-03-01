@@ -5,23 +5,21 @@
  *  Created: 02.24.2026
  */
 
-import RecentSearchHeader from '@/components/search-recents/RecentSearchHeader';
-import RecentCard from '@/components/search-recents/RecentCard';
-import ClearRecent from '@/components/search-recents/ClearRecent';
-import { RecentSearchData } from '@/data/recentSearchData';
+import RecentCard from '@/app/(tabs)/search-recents/RecentCard';
+import RecentSearchHeader from '@/app/(tabs)/search-recents/RecentSearchHeader';
 
-import { SafeAreaView, Pressable, ScrollView, Text, StyleSheet } from 'react-native';
 import { router } from "expo-router";
+import { SafeAreaViewBase, StyleSheet, Text } from 'react-native';
 
 export default function SearchRecents() {
   return (
-    <SafeAreaView>
+    <SafeAreaViewBase>
       <RecentSearchHeader onPress={() => router.back()}/>
       <Text style={styles.title}>Recent searches</Text>
       <RecentCard
         key={}
       />
-    </SafeAreaView>
+    </SafeAreaViewBase>
   )
   // <Text style={styles.title}>Recent searches</Text>
   // The RecentCard Components array is scrollable, a ScrollView Wrapper will go here
@@ -35,5 +33,7 @@ const styles = StyleSheet.create({
   text: {
     color: '#FFFFFF',
     backgroundColor: '#121212',
+  }, title:{
+    
   }
 });
