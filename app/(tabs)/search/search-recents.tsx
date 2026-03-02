@@ -5,9 +5,9 @@
  *  Created: 02.24.2026
  */
 
-import RecentSearchHeader from './components/RecentSearchHeader';
-import RecentCard from './components/RecentCard';
-import ClearRecent from './components/ClearRecent';
+import RecentSearchHeader from '../../../components/search/RecentSearchHeader';
+import RecentCard from '../../../components/search/RecentCard';
+import ClearRecent from '../../../components/search/ClearRecent';
 import { recentSearches } from '@/data/recentSearchData';
 
 import { SafeAreaView, ScrollView, Text, StyleSheet, View } from 'react-native';
@@ -30,7 +30,7 @@ export default function SearchRecents() {
           />
         ))}
         <View style={styles.clearRecent}>
-          <ClearRecent/>
+          <ClearRecent />
         </View>
       </ScrollView>
     </SafeAreaView>
@@ -54,6 +54,6 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   clearRecent: {
-    marginBottom: 12,
+    marginBottom: 40,
   }
 });
