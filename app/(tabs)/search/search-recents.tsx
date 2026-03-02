@@ -10,7 +10,7 @@ import RecentCard from './components/RecentCard';
 import ClearRecent from './components/ClearRecent';
 import { recentSearches } from '@/data/recentSearchData';
 
-import { SafeAreaView, ScrollView, Text, StyleSheet } from 'react-native';
+import { SafeAreaView, ScrollView, Text, StyleSheet, View } from 'react-native';
 import { router } from "expo-router";
 
 export default function SearchRecents() {
@@ -29,7 +29,9 @@ export default function SearchRecents() {
             image={card.image}
           />
         ))}
-        <ClearRecent />
+        <View style={styles.clearRecent}>
+          <ClearRecent/>
+        </View>
       </ScrollView>
     </SafeAreaView>
   )
@@ -51,4 +53,7 @@ const styles = StyleSheet.create({
   scrollView: {
     flex: 1,
   },
+  clearRecent: {
+    marginBottom: 12,
+  }
 });

@@ -16,7 +16,7 @@ export interface RecentSearchData {
 
 export const recentSearches: RecentSearchData[] = [
   {
-    id: "1", title: "This is The Guitar Girl", type: "Playlist", createdBy: "Spotify",
+    id: "1", title: "This is Guitar Girl", type: "Playlist", createdBy: "Spotify",
     image: { uri: "https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/main/assets/images/search-images/recent-guitargirl.jpg" }
   },
   {
