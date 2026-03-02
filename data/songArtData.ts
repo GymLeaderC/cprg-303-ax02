@@ -12,16 +12,16 @@
 export const SONG_ART: Record<string, { uri: string }> = {
 
   // ─── LIKED SONGS ────────────────────────────────────────────────────────────
-  'back to friends':    { uri: 'https://i.scdn.co/image/ab67616d0000b273e787cffec20aa2a396a61647' }, // sombr
-  'Flowers':            { uri: 'https://i.scdn.co/image/ab67616d0000b2732e8ed79e177ff6011076f5f0' }, // Miley Cyrus
-  'Daylight':           { uri: 'https://i.scdn.co/image/ab67616d0000b273e787cffec20aa2a396a61647' }, // David Kushner
-  'Kill Bill':          { uri: 'https://i.scdn.co/image/ab67616d0000b2732e8ed79e177ff6011076f5f0' }, // SZA
-  "Creepin'":           { uri: 'https://i.scdn.co/image/ab67616d0000b273e787cffec20aa2a396a61647' }, // Metro Boomin, The Weeknd
-  'As It Was':          { uri: 'https://i.scdn.co/image/ab67616d0000b2732e8ed79e177ff6011076f5f0' }, // Harry Styles - Harry's House
-  'Cruel Summer':       { uri: 'https://i.scdn.co/image/ab67616d0000b273e787cffec20aa2a396a61647' }, // Taylor Swift - Lover
-  'Escapism.':          { uri: 'https://i.scdn.co/image/ab67616d0000b2732e8ed79e177ff6011076f5f0' }, // RAYE, 070 Shake
-  'Golden Hour':        { uri: 'https://i.scdn.co/image/ab67616d0000b273e787cffec20aa2a396a61647' }, // JVKE
-  'Bad Habit':          { uri: 'https://i.scdn.co/image/ab67616d0000b2732e8ed79e177ff6011076f5f0' }, // Steve Lacy
+  'back to friends':    { uri: 'https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/refs/heads/branch-kaley/assets/images/dtmf.jpeg' }, // sombr
+  'Flowers':            { uri: 'https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/refs/heads/branch-kaley/assets/images/flowers.jpg' },
+  'Daylight':           { uri: 'https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/refs/heads/branch-kaley/assets/images/daylight.jpg' },
+  'Kill Bill':          { uri: 'https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/refs/heads/branch-kaley/assets/images/bill.jpg' }, // SZA
+  "Creepin'":           { uri: 'https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/refs/heads/branch-kaley/assets/images/creep.jpg' }, // Metro Boomin, The Weeknd
+  'As It Was':          { uri: 'https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/refs/heads/branch-kaley/assets/images/asItWas.jpg' }, // Harry Styles - Harry's House
+  'Cruel Summer':       { uri: 'https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/refs/heads/branch-kaley/assets/images/summer.jpg' }, // Taylor Swift - Lover
+  'Escapism.':          { uri: 'https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/refs/heads/branch-kaley/assets/images/escapism.jpg' }, // RAYE, 070 Shake
+  'Golden Hour':        { uri: 'https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/refs/heads/branch-kaley/assets/images/golden.jpg' }, // JVKE
+  'Bad Habit':          { uri: 'https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/refs/heads/branch-kaley/assets/images/badHabits.jpg' }, // Steve Lacy
 };
 
 /* Fallback image used when a song title has no match in SONG_ART.
