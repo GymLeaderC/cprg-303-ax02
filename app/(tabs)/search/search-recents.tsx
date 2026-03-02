@@ -17,8 +17,8 @@ export default function SearchRecents() {
   return (
     <SafeAreaView style={styles.safeArea}>
       <RecentSearchHeader onPress={() => router.back()} />
-      <Text style={styles.title}>Recent searches</Text>
       <ScrollView style={styles.scrollView}>
+        <Text style={styles.title}>Recent searches</Text>
         {recentSearches.map((card) => (
           <RecentCard
             key={card.id}
@@ -47,7 +47,7 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontWeight: 'bold',
     paddingHorizontal: 16,
-    paddingTop: 16,
+    paddingTop: 8,
     paddingBottom: 8,
   },
   scrollView: {
@@ -55,5 +55,5 @@ const styles = StyleSheet.create({
   },
   clearRecent: {
     marginBottom: 40,
-  }
+  },
 });
