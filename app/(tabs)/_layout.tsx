@@ -6,7 +6,8 @@
  */
 
 import { Ionicons } from "@expo/vector-icons";
-import { Tabs } from "expo-router";
+import { router, Tabs } from "expo-router";
+import { Pressable } from "react-native";
 
 export default function TabLayout() {
   return (
@@ -52,8 +53,14 @@ export default function TabLayout() {
           tabBarIcon: ({ color, size }) => (
             <Ionicons name="add-circle-outline" size={size} color={color} />
           ),
+          tabBarButton: ({ ref, ...props }) => (
+            <Pressable
+              {...props}
+              onPress={() => router.push('/create-modal' as any)}
+            />
+          ),
         }}
       />
     </Tabs>
-  )
+  );
 }

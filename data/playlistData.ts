@@ -27,7 +27,7 @@ export const YOUR_EPISODES: PlaylistMeta = {
   name: 'Your Episodes',
   owner: 'Your Library',
   songCount: 5,
-  coverImage: { uri: 'https://misc.scdn.co/your-episodes/your-episodes-640.png' },
+  coverImage: { uri: 'https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/main/assets/images/bookmarked.png' },
   songs: [
     { id: '1', title: 'The Future of AI', artist: 'Lex Fridman Podcast', duration: '2:14', explicit: false },
     { id: '2', title: 'How To Build Wealth', artist: 'The Tim Ferriss Show', duration: '1:32', explicit: false },
@@ -42,7 +42,7 @@ export const ELEVATOR_MUSIC: PlaylistMeta = {
   name: 'Elevator Music',
   owner: 'Juan Pablo Borg...',
   songCount: 6,
-  coverImage: { uri: 'https://i.scdn.co/image/ab67706f00000002ca5a7517156021292e5663a6' },
+  coverImage: { uri: 'https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/main/assets/images/elevatorMusic.png' },
   songs: [
     { id: '1', title: 'Girl from Ipanema', artist: 'Stan Getz, João Gilberto', duration: '5:21', explicit: false },
     { id: '2', title: 'Fly Me to the Moon', artist: 'Frank Sinatra', duration: '2:27', explicit: false },
@@ -58,7 +58,7 @@ export const DJ: PlaylistMeta = {
   name: 'DJ',
   owner: 'Spotify',
   songCount: 7,
-  coverImage: { uri: 'https://misc.scdn.co/dj/dj-640.png' },
+  coverImage: { uri: 'https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/main/assets/images/DjBeta.jpg' },
   songs: [
     { id: '1', title: 'Blinding Lights', artist: 'The Weeknd', duration: '3:20', explicit: false },
     { id: '2', title: 'Levitating', artist: 'Dua Lipa', duration: '3:23', explicit: false },
@@ -75,7 +75,7 @@ export const REWIND_2025: PlaylistMeta = {
   name: '2025 Rewind',
   owner: 'aar.reid',
   songCount: 6,
-  coverImage: { uri: 'https://i.scdn.co/image/ab67706f000000025e6bc3a70b4c536d6f1e0e4b' },
+  coverImage: { uri: 'https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/refs/heads/main/assets/images/search-images/discover-dinner.jpg' },
   songs: [
     { id: '1', title: 'APT.', artist: 'ROSÉ, Bruno Mars', duration: '3:00', explicit: false },
     { id: '2', title: 'luther', artist: 'Kendrick Lamar, SZA', duration: '4:14', explicit: true },
@@ -91,7 +91,7 @@ export const YOU_LIKE_JAZZ: PlaylistMeta = {
   name: 'You Like Jazz?',
   owner: 'aar.reid',
   songCount: 5,
-  coverImage: { uri: 'https://i.scdn.co/image/ab67706f00000002f4c8e96c37d53fa2fa05aa77' },
+  coverImage: { uri: 'https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/refs/heads/main/assets/images/search-images/discover-disco.jpg' },
   songs: [
     { id: '1', title: 'So What', artist: 'Miles Davis', duration: '9:22', explicit: false },
     { id: '2', title: 'A Love Supreme, Pt. I', artist: 'John Coltrane', duration: '7:46', explicit: false },
@@ -106,7 +106,7 @@ export const DANCE_PARTY: PlaylistMeta = {
   name: 'Dance Party',
   owner: 'aar.reid',
   songCount: 7,
-  coverImage: { uri: 'https://i.scdn.co/image/ab67706f00000002fe24d7084be472288ea6b7f7' },
+  coverImage: { uri: 'https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/refs/heads/main/assets/images/search-images/discover-granola.jpg' },
   songs: [
     { id: '1', title: 'As It Was', artist: 'Harry Styles', duration: '2:37', explicit: false },
     { id: '2', title: 'Shivers', artist: 'Ed Sheeran', duration: '3:27', explicit: false },
@@ -123,7 +123,7 @@ export const DAYLIST: PlaylistMeta = {
   name: 'Daylist',
   owner: 'Maria Rivera',
   songCount: 5,
-  coverImage: { uri: 'https://misc.scdn.co/daylist/daylist-640.png' },
+  coverImage: { uri: 'https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/refs/heads/main/assets/images/search-images/discover-surf.jpg' },
   songs: [
     { id: '1', title: 'Telepatía', artist: 'Kali Uchis', duration: '2:55', explicit: false },
     { id: '2', title: 'La Noche de Anoche', artist: 'Bad Bunny, ROSALÍA', duration: '3:30', explicit: false },
@@ -138,7 +138,7 @@ export const ALT_POP_MIX: PlaylistMeta = {
   name: 'Alt Pop Mix',
   owner: 'aar.reid',
   songCount: 6,
-  coverImage: { uri: 'https://i.scdn.co/image/ab67706f000000025e38366f83f9d1b27d993432' },
+  coverImage: { uri: 'https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/refs/heads/main/assets/images/search-images/discover-retro.jpg' },
   songs: [
     { id: '1', title: 'Ribs', artist: 'Lorde', duration: '3:49', explicit: false },
     { id: '2', title: 'Motion Sickness', artist: 'Phoebe Bridgers', duration: '3:33', explicit: false },
@@ -154,7 +154,7 @@ export const LIKED_SONGS: PlaylistMeta = {
   name: 'Liked Songs',
   owner: 'Your Library',
   songCount: 2344,
-  coverImage: { uri: 'https://misc.scdn.co/liked-songs/liked-songs-640.png' },
+  coverImage: { uri: 'https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/refs/heads/main/assets/images/search-images/recent-musicstand.jpg' },
   songs: [
     { id: '1', title: 'back to friends', artist: 'sombr', duration: '3:12', explicit: false },
     { id: '2', title: 'Flowers', artist: 'Miley Cyrus', duration: '3:21', explicit: false },
