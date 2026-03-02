@@ -58,7 +58,7 @@ export const DJ: PlaylistMeta = {
   name: 'DJ',
   owner: 'Spotify',
   songCount: 7,
-  coverImage: { uri: 'https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/main/assets/images/DjBeta.jpg' },
+  coverImage: { uri: 'https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/refs/heads/branch-kaley/assets/DjBeta.jpg' },
   songs: [
     { id: '1', title: 'Blinding Lights', artist: 'The Weeknd', duration: '3:20', explicit: false },
     { id: '2', title: 'Levitating', artist: 'Dua Lipa', duration: '3:23', explicit: false },
