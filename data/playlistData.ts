@@ -134,11 +134,11 @@ export const DAYLIST: PlaylistMeta = {
 };
 
 export const ALT_POP_MIX: PlaylistMeta = {
-  id: 'alt-pop-mix',
-  name: 'Alt Pop Mix',
+  id: 'elvt-music',
+  name: 'Elevator Music',
   owner: 'aar.reid',
   songCount: 6,
-  coverImage: { uri: 'https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/refs/heads/main/assets/images/search-images/discover-retro.jpg' },
+  coverImage: { uri: 'https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/refs/heads/branch-kaley/assets/elevatorMusic.png' },
   songs: [
     { id: '1', title: 'Ribs', artist: 'Lorde', duration: '3:49', explicit: false },
     { id: '2', title: 'Motion Sickness', artist: 'Phoebe Bridgers', duration: '3:33', explicit: false },
@@ -154,7 +154,7 @@ export const LIKED_SONGS: PlaylistMeta = {
   name: 'Liked Songs',
   owner: 'Your Library',
   songCount: 2344,
-  coverImage: { uri: '' },
+  coverImage: { uri: 'https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/refs/heads/branch-kaley/assets/likedSongs.jpg' },
   songs: [
     { id: '1', title: 'back to friends', artist: 'sombr', duration: '3:12', explicit: false },
     { id: '2', title: 'Flowers', artist: 'Miley Cyrus', duration: '3:21', explicit: false },
