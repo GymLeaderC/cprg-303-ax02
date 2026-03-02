@@ -5,6 +5,8 @@
  *  Created: 03.01.2026
  */
 
+import { ImageSourcePropType } from "react-native";
+
 export type Song = {
   id: string;
   title: string;
@@ -18,7 +20,7 @@ export type PlaylistMeta = {
   name: string;
   owner: string;
   songCount: number;
-  coverImage: { uri: string };
+  coverImage: ImageSourcePropType;
   songs: Song[];
 };
 

@@ -5,6 +5,8 @@
  *  Created: 03.01.2026
  */
 
+import { ImageSourcePropType } from "react-native";
+
 export type PlaylistItem = {
   id: string;
   playlistName: string;
@@ -13,7 +15,7 @@ export type PlaylistItem = {
   songNumber?: number;
   pinned?: boolean;
   downloaded?: boolean;
-  coverImage: { uri: string };
+  coverImage: ImageSourcePropType;
 };
 
 export const PLAYLISTS: PlaylistItem[] = [
@@ -23,7 +25,7 @@ export const PLAYLISTS: PlaylistItem[] = [
     songNumber: 2344,
     pinned: true,
     downloaded: true,
-    coverImage: { uri: 'https://misc.scdn.co/liked-songs/liked-songs-640.png' },
+    coverImage: { uri: 'https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/refs/heads/branch-kaley/assets/images/likedSongs.jpg' },
   },
   {
     id: 'daylist',
