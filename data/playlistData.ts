@@ -22,6 +22,26 @@ export type PlaylistMeta = {
   songs: Song[];
 };
 
+export const LIKED_SONGS: PlaylistMeta = {
+  id: 'liked-songs',
+  name: 'Liked Songs',
+  owner: 'Your Library',
+  songCount: 2344,
+  coverImage: { uri: 'https://misc.scdn.co/liked-songs/liked-songs-640.png' },
+  songs: [
+    { id: '1', title: 'back to friends', artist: 'sombr', duration: '3:12', explicit: false },
+    { id: '2', title: 'Flowers', artist: 'Miley Cyrus', duration: '3:21', explicit: false },
+    { id: '3', title: 'Daylight', artist: 'David Kushner', duration: '3:44', explicit: false },
+    { id: '4', title: 'Kill Bill', artist: 'SZA', duration: '2:33', explicit: true },
+    { id: '5', title: "Creepin'", artist: 'Metro Boomin, The Weeknd', duration: '3:54', explicit: true },
+    { id: '6', title: 'As It Was', artist: 'Harry Styles', duration: '2:37', explicit: false },
+    { id: '7', title: 'Cruel Summer', artist: 'Taylor Swift', duration: '2:58', explicit: false },
+    { id: '8', title: 'Escapism.', artist: 'RAYE, 070 Shake', duration: '3:49', explicit: true },
+    { id: '9', title: 'Golden Hour', artist: 'JVKE', duration: '3:29', explicit: false },
+    { id: '10', title: 'Bad Habit', artist: 'Steve Lacy', duration: '3:52', explicit: false },
+  ],
+};
+
 export const YOUR_EPISODES: PlaylistMeta = {
   id: 'your-episodes',
   name: 'Your Episodes',
@@ -38,7 +58,7 @@ export const YOUR_EPISODES: PlaylistMeta = {
 };
 
 export const ELEVATOR_MUSIC: PlaylistMeta = {
-  id: 'elevator-music',
+  id: 'elt-music',
   name: 'Elevator Music',
   owner: 'Juan Pablo Borg...',
   songCount: 6,
@@ -58,7 +78,7 @@ export const DJ: PlaylistMeta = {
   name: 'DJ',
   owner: 'Spotify',
   songCount: 7,
-  coverImage: { uri: 'https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/refs/heads/branch-kaley/assets/DjBeta.jpg' },
+  coverImage: { uri: 'https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/main/assets/images/DjBeta.jpg' },
   songs: [
     { id: '1', title: 'Blinding Lights', artist: 'The Weeknd', duration: '3:20', explicit: false },
     { id: '2', title: 'Levitating', artist: 'Dua Lipa', duration: '3:23', explicit: false },
@@ -71,11 +91,11 @@ export const DJ: PlaylistMeta = {
 };
 
 export const REWIND_2025: PlaylistMeta = {
-  id: '2025-top',
-  name: 'Top 2025',
+  id: '2025-rewind',
+  name: '2025 Rewind',
   owner: 'aar.reid',
   songCount: 6,
-  coverImage: { uri: 'https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/refs/heads/branch-kaley/assets/top.png' },
+  coverImage: { uri: 'https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/main/assets/images/top.png' },
   songs: [
     { id: '1', title: 'APT.', artist: 'ROSÉ, Bruno Mars', duration: '3:00', explicit: false },
     { id: '2', title: 'luther', artist: 'Kendrick Lamar, SZA', duration: '4:14', explicit: true },
@@ -88,10 +108,10 @@ export const REWIND_2025: PlaylistMeta = {
 
 export const YOU_LIKE_JAZZ: PlaylistMeta = {
   id: 'you-like-jazz',
-  name: 'Modern Jazz',
+  name: 'You Like Jazz?',
   owner: 'aar.reid',
   songCount: 5,
-  coverImage: { uri: https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/refs/heads/branch-kaley/assets/modernJazz.png' },
+  coverImage: { uri: 'https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/main/assets/images/modernJazz.png' },
   songs: [
     { id: '1', title: 'So What', artist: 'Miles Davis', duration: '9:22', explicit: false },
     { id: '2', title: 'A Love Supreme, Pt. I', artist: 'John Coltrane', duration: '7:46', explicit: false },
@@ -106,7 +126,7 @@ export const DANCE_PARTY: PlaylistMeta = {
   name: 'Dance Party',
   owner: 'aar.reid',
   songCount: 7,
-  coverImage: { uri: 'https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/refs/heads/branch-kaley/assets/danceparty.png' },
+  coverImage: { uri: 'https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/main/assets/images/danceparty.png' },
   songs: [
     { id: '1', title: 'As It Was', artist: 'Harry Styles', duration: '2:37', explicit: false },
     { id: '2', title: 'Shivers', artist: 'Ed Sheeran', duration: '3:27', explicit: false },
@@ -123,7 +143,7 @@ export const DAYLIST: PlaylistMeta = {
   name: 'Daylist',
   owner: 'Maria Rivera',
   songCount: 5,
-  coverImage: { uri: 'https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/refs/heads/branch-kaley/assets/daylist.png' },
+  coverImage: { uri: 'https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/main/assets/images/daylist.png' },
   songs: [
     { id: '1', title: 'Telepatía', artist: 'Kali Uchis', duration: '2:55', explicit: false },
     { id: '2', title: 'La Noche de Anoche', artist: 'Bad Bunny, ROSALÍA', duration: '3:30', explicit: false },
@@ -134,11 +154,11 @@ export const DAYLIST: PlaylistMeta = {
 };
 
 export const ALT_POP_MIX: PlaylistMeta = {
-  id: 'elvt-music',
-  name: 'Elevator Music',
+  id: 'alt-pop-mix',
+  name: 'Alt Pop Mix',
   owner: 'aar.reid',
   songCount: 6,
-  coverImage: { uri: 'https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/refs/heads/branch-kaley/assets/elevatorMusic.png' },
+  coverImage: { uri: 'https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/main/assets/images/popmix.png' },
   songs: [
     { id: '1', title: 'Ribs', artist: 'Lorde', duration: '3:49', explicit: false },
     { id: '2', title: 'Motion Sickness', artist: 'Phoebe Bridgers', duration: '3:33', explicit: false },
@@ -149,35 +169,15 @@ export const ALT_POP_MIX: PlaylistMeta = {
   ],
 };
 
-export const LIKED_SONGS: PlaylistMeta = {
-  id: 'liked-songs',
-  name: 'Liked Songs',
-  owner: 'Your Library',
-  songCount: 2344,
-  coverImage: { uri: 'https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/refs/heads/branch-kaley/assets/likedSongs.jpg' },
-  songs: [
-    { id: '1', title: 'back to friends', artist: 'sombr', duration: '3:12', explicit: false },
-    { id: '2', title: 'Flowers', artist: 'Miley Cyrus', duration: '3:21', explicit: false },
-    { id: '3', title: 'Daylight', artist: 'David Kushner', duration: '3:44', explicit: false },
-    { id: '4', title: 'Kill Bill', artist: 'SZA', duration: '2:33', explicit: true },
-    { id: '5', title: "Creepin'", artist: 'Metro Boomin, The Weeknd', duration: '3:54', explicit: true },
-    { id: '6', title: 'As It Was', artist: 'Harry Styles', duration: '2:37', explicit: false },
-    { id: '7', title: 'Cruel Summer', artist: 'Taylor Swift', duration: '2:58', explicit: false },
-    { id: '8', title: 'Escapism.', artist: 'RAYE, 070 Shake', duration: '3:49', explicit: true },
-    { id: '9', title: 'Golden Hour', artist: 'JVKE', duration: '3:29', explicit: false },
-    { id: '10', title: 'Bad Habit', artist: 'Steve Lacy', duration: '3:52', explicit: false },
-  ],
-};
-
-/* Central map for looking up any playlist by its route id */
+/* Central map — keys match the id field in playlistData.ts PLAYLISTS */
 export const PLAYLIST_MAP: Record<string, PlaylistMeta> = {
-  'liked-songs': LIKED_SONGS,
-  'your-episodes': YOUR_EPISODES,
-  'elevator-music': ELEVATOR_MUSIC,
-  'dj': DJ,
-  '2025-rewind': REWIND_2025,
-  'you-like-jazz': YOU_LIKE_JAZZ,
-  'dance-party': DANCE_PARTY,
-  'daylist': DAYLIST,
-  'alt-pop-mix': ALT_POP_MIX,
+  'liked-songs':    LIKED_SONGS,
+  'your-episodes':  YOUR_EPISODES,
+  'elt-music':      ELEVATOR_MUSIC,
+  'dj':             DJ,
+  '2025-rewind':    REWIND_2025,
+  'you-like-jazz':  YOU_LIKE_JAZZ,
+  'dance-party':    DANCE_PARTY,
+  'daylist':        DAYLIST,
+  'alt-pop-mix':    ALT_POP_MIX,
 };

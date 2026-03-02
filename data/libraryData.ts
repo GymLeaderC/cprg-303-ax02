@@ -26,14 +26,14 @@ export const PLAYLISTS: PlaylistItem[] = [
     coverImage: { uri: 'https://misc.scdn.co/liked-songs/liked-songs-640.png' },
   },
   {
-    id: 'your-episodes',
-    playlistName: 'Your Episodes',
+    id: 'daylist',
+    playlistName: 'Daylist',
     description: 'Playlist • Saved episodes',
     pinned: true,
     coverImage: { uri: 'https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/main/assets/images/bookmarked.png' },
   },
   {
-    id: 'elevator-music',
+    id: 'elt-music',
     playlistName: 'Elevator Music',
     playlistOwner: 'Juan Pablo Borg...',
     coverImage: { uri: 'https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/main/assets/images/elevatorMusic.png' },
