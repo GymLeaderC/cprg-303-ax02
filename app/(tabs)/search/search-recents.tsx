@@ -10,7 +10,8 @@ import RecentCard from '../../../components/search/RecentCard';
 import ClearRecent from '../../../components/search/ClearRecent';
 import { recentSearches } from '@/data/recentSearchData';
 
-import { SafeAreaView, ScrollView, Text, StyleSheet, View } from 'react-native';
+import { ScrollView, Text, StyleSheet, View } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { router } from "expo-router";
 
 export default function SearchRecents() {
