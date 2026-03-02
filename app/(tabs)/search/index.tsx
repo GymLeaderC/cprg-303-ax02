@@ -6,10 +6,10 @@
  */
 
 import { browseAllData, discoverData, startBrowsingData } from "../../../data/searchData"
-import CategoryCard from "./components/CategoryCard"
-import DiscoverCard from "./components/DiscoverCard"
-import SearchHeader from "./components/SearchHeader"
-import SearchBar from "./components/SearchBar"
+import CategoryCard from "../../../components/search/CategoryCard"
+import DiscoverCard from "../../../components/search/DiscoverCard"
+import SearchHeader from "../../../components/search/SearchHeader"
+import SearchBar from "../../../components/search/SearchBar"
 
 
 import { useBottomTabBarHeight } from '@react-navigation/bottom-tabs'
