@@ -1,0 +1,77 @@
+/**
+ *  @author Group 9 - Aaron Reid, Joshua Couto, Kaley Wood
+ *  Southern Alberta Institute of Technology: CPRG-303-C
+ *  Assignment 2: Advanced Multi-Screen Mobile App w/ Collaborative Navigation
+ *  Created: 03.01.2026
+ */
+
+export type PlaylistItem = {
+  id: string;
+  playlistName: string;
+  playlistOwner?: string;
+  description?: string;
+  songNumber?: number;
+  pinned?: boolean;
+  downloaded?: boolean;
+  coverImage: { uri: string };
+};
+
+export const PLAYLISTS: PlaylistItem[] = [
+  {
+    id: 'liked-songs',
+    playlistName: 'Liked Songs',
+    songNumber: 2344,
+    pinned: true,
+    downloaded: true,
+    coverImage: { uri: 'https://misc.scdn.co/liked-songs/liked-songs-640.png' },
+  },
+  {
+    id: 'your-episodes',
+    playlistName: 'Your Episodes',
+    description: 'Playlist • Saved episodes',
+    pinned: true,
+    coverImage: { uri: 'https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/main/assets/images/bookmarked.png' },
+  },
+  {
+    id: 'elevator-music',
+    playlistName: 'Elevator Music',
+    playlistOwner: 'Juan Pablo Borg...',
+    coverImage: { uri: 'https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/main/assets/images/elevatorMusic.png' },
+  },
+  {
+    id: 'dj',
+    playlistName: 'DJ',
+    description: 'Tap to start',
+    coverImage: { uri: 'https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/main/assets/images/DjBeta.jpg' },
+  },
+  {
+    id: '2025-rewind',
+    playlistName: '2025 Rewind',
+    playlistOwner: 'aar.reid',
+    coverImage: { uri: 'https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/main/assets/images/top.png' },
+  },
+  {
+    id: 'you-like-jazz',
+    playlistName: 'You Like Jazz?',
+    playlistOwner: 'aar.reid',
+    coverImage: { uri: 'https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/main/assets/images/modernJazz.png' },
+  },
+  {
+    id: 'dance-party',
+    playlistName: 'Dance Party',
+    playlistOwner: 'aar.reid',
+    coverImage: { uri: 'https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/main/assets/images/danceparty.png' },
+  },
+  {
+    id: 'daylist',
+    playlistName: 'Daylist',
+    playlistOwner: 'Maria Rivera',
+    coverImage: { uri: 'https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/main/assets/images/daylist.png' },
+  },
+  {
+    id: 'alt-pop-mix',
+    playlistName: 'Alt Pop Mix',
+    playlistOwner: 'aar.reid',
+    coverImage: { uri: 'https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/main/assets/images/popmix.png' },
+  },
+];

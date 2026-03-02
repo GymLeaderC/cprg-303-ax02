@@ -14,7 +14,8 @@ import SearchBar from "../../../components/search/SearchBar"
 
 import { useBottomTabBarHeight } from '@react-navigation/bottom-tabs'
 import { router } from "expo-router"
-import { SafeAreaView, ScrollView, StyleSheet, Text, View } from 'react-native'
+import { ScrollView, StyleSheet, Text, View } from 'react-native'
+import { SafeAreaView } from "react-native-safe-area-context"
 
 export default function Search() {
   const tabBarHeight = useBottomTabBarHeight();

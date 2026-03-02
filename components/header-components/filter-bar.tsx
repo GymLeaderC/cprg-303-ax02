@@ -1,0 +1,60 @@
+/*
+ *  @author Group 9 - Aaron Reid, Joshua Couto, Kaley Wood
+ *  Southern Alberta Institute of Technology: CPRG-303-C
+ *  Assignment 2: Advanced Multi-Screen Mobile App w/ Collaborative Navigation
+ *  Created: 02.19.2026
+ */
+
+import { useState } from 'react';
+import { ScrollView, StyleSheet, View } from 'react-native';
+import FilterButton from './filter-button';
+import XButton from './x-button';
+
+function FilterBar() {
+  const [activeFilter, setActiveFilter] = useState('Playlists');
+
+  return (
+    <View style={styles.container}>
+      <ScrollView
+        horizontal
+        showsHorizontalScrollIndicator={false}
+        contentContainerStyle={styles.scrollContent}
+      >
+        <XButton onPress={() => console.log('X Button pressed')} />
+        <FilterButton
+          title="Playlists"
+          isActive={activeFilter === "Playlists"}
+          onPress={() => setActiveFilter("Playlists")}
+        />
+        <FilterButton
+          title="By you"
+          isActive={activeFilter === "By you"}
+          onPress={() => setActiveFilter("By you")}
+        />
+        <FilterButton
+          title="By Spotify"
+          isActive={activeFilter === "By Spotify"}
+          onPress={() => setActiveFilter("By Spotify")}
+        />
+        <FilterButton
+          title="Downloaded"
+          isActive={activeFilter === "Downloaded"}
+          onPress={() => setActiveFilter("Downloaded")}
+        />
+      </ScrollView>
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    backgroundColor: '#121212',
+    paddingVertical: 8,
+  },
+  scrollContent: {
+    paddingHorizontal: 16,
+    gap: 8,
+  }
+});
+
+export default FilterBar;
