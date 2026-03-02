@@ -27,7 +27,7 @@ export const LIKED_SONGS: PlaylistMeta = {
   name: 'Liked Songs',
   owner: 'Your Library',
   songCount: 2344,
-  coverImage: { uri: 'https://misc.scdn.co/liked-songs/liked-songs-640.png' },
+  coverImage: { uri: 'https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/refs/heads/branch-kaley/assets/images/likedSongs.jpg' },
   songs: [
     { id: '1', title: 'back to friends', artist: 'sombr', duration: '3:12', explicit: false },
     { id: '2', title: 'Flowers', artist: 'Miley Cyrus', duration: '3:21', explicit: false },
