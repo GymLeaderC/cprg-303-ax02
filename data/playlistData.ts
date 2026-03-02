@@ -71,11 +71,11 @@ export const DJ: PlaylistMeta = {
 };
 
 export const REWIND_2025: PlaylistMeta = {
-  id: '2025-rewind',
-  name: '2025 Rewind',
+  id: '2025-top',
+  name: 'Top 2025',
   owner: 'aar.reid',
   songCount: 6,
-  coverImage: { uri: 'https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/refs/heads/main/assets/images/search-images/discover-dinner.jpg' },
+  coverImage: { uri: 'https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/refs/heads/branch-kaley/assets/top.png' },
   songs: [
     { id: '1', title: 'APT.', artist: 'ROSÉ, Bruno Mars', duration: '3:00', explicit: false },
     { id: '2', title: 'luther', artist: 'Kendrick Lamar, SZA', duration: '4:14', explicit: true },
@@ -88,10 +88,10 @@ export const REWIND_2025: PlaylistMeta = {
 
 export const YOU_LIKE_JAZZ: PlaylistMeta = {
   id: 'you-like-jazz',
-  name: 'You Like Jazz?',
+  name: 'Modern Jazz',
   owner: 'aar.reid',
   songCount: 5,
-  coverImage: { uri: 'https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/refs/heads/main/assets/images/search-images/discover-disco.jpg' },
+  coverImage: { uri: https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/refs/heads/branch-kaley/assets/modernJazz.png' },
   songs: [
     { id: '1', title: 'So What', artist: 'Miles Davis', duration: '9:22', explicit: false },
     { id: '2', title: 'A Love Supreme, Pt. I', artist: 'John Coltrane', duration: '7:46', explicit: false },
@@ -106,7 +106,7 @@ export const DANCE_PARTY: PlaylistMeta = {
   name: 'Dance Party',
   owner: 'aar.reid',
   songCount: 7,
-  coverImage: { uri: 'https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/refs/heads/main/assets/images/search-images/discover-granola.jpg' },
+  coverImage: { uri: 'https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/refs/heads/branch-kaley/assets/danceparty.png' },
   songs: [
     { id: '1', title: 'As It Was', artist: 'Harry Styles', duration: '2:37', explicit: false },
     { id: '2', title: 'Shivers', artist: 'Ed Sheeran', duration: '3:27', explicit: false },
@@ -123,7 +123,7 @@ export const DAYLIST: PlaylistMeta = {
   name: 'Daylist',
   owner: 'Maria Rivera',
   songCount: 5,
-  coverImage: { uri: 'https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/refs/heads/main/assets/images/search-images/discover-surf.jpg' },
+  coverImage: { uri: 'https://raw.githubusercontent.com/GymLeaderC/cprg-303-ax02/refs/heads/branch-kaley/assets/daylist.png' },
   songs: [
     { id: '1', title: 'Telepatía', artist: 'Kali Uchis', duration: '2:55', explicit: false },
     { id: '2', title: 'La Noche de Anoche', artist: 'Bad Bunny, ROSALÍA', duration: '3:30', explicit: false },
